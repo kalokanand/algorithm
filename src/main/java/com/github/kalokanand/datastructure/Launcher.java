@@ -1,4 +1,4 @@
-package com.kalokanand.datastructure;
+package com.github.kalokanand.datastructure;
 
 public class Launcher {
 
