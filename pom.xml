@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.kalokanand.datastructure</groupId>
 	<artifactId>algorithm</artifactId>
-	<version>1.0.0</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<name>${project.groupId}:${project.artifactId}</name>
 	<description>Algorithm</description>
 	<url>https://github.com/kalokanand/algorithm</url>
