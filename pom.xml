@@ -6,6 +6,7 @@
 	<artifactId>algorithm</artifactId>
 	<version>1.0.0</version>
 	<name>${project.groupId}:${project.artifactId}</name>
+	<packaging>jar</packaging>
 	<description>Algorithm</description>
 	<url>https://github.com/kalokanand/algorithm</url>
 
@@ -28,7 +29,7 @@
 	<scm>
 		<connection>scm:git:git://github.com/kalokanand/algorithm.git</connection>
 		<developerConnection>scm:git:ssh://github.com:kalokanand/algorithm.git</developerConnection>
-		<url>https://github.com/kalokanand/algorithm</url>
+		<url>https://github.com/kalokanand/algorithm.git</url>
 	</scm>
 
 	<distributionManagement>
@@ -41,9 +42,17 @@
 			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
 		</repository>
 	</distributionManagement>
-
 	<build>
 		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
 			<plugin>
 				<groupId>org.sonatype.plugins</groupId>
 				<artifactId>nexus-staging-maven-plugin</artifactId>
@@ -97,5 +106,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
