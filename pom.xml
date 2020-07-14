@@ -4,11 +4,26 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.kalokanand</groupId>
 	<artifactId>algorithm</artifactId>
-	<version>1.1.1</version>
+	<version>1.1.2</version>
 	<name>${project.groupId}:${project.artifactId}</name>
 	<packaging>jar</packaging>
 	<description>Algorithm</description>
 	<url>https://github.com/kalokanand/algorithm</url>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.testlink.client</groupId>
+			<artifactId>testlink-api-client</artifactId>
+			<version>2.0</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/lib/testlink-api-client-2.0.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>io.appium</groupId>
+			<artifactId>java-client</artifactId>
+			<version>7.3.0</version>
+		</dependency>
+	</dependencies>
 
 	<licenses>
 		<license>
