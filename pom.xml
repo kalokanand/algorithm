@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.kalokanand</groupId>
 	<artifactId>algorithm</artifactId>
-	<version>1.0.0</version>
+	<version>1.1.1</version>
 	<name>${project.groupId}:${project.artifactId}</name>
 	<packaging>jar</packaging>
 	<description>Algorithm</description>
@@ -64,7 +64,6 @@
 					<autoReleaseAfterClose>true</autoReleaseAfterClose>
 				</configuration>
 			</plugin>
-			<!--
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-source-plugin</artifactId>
@@ -78,7 +77,6 @@
 					</execution>
 				</executions>
 			</plugin>
-			-->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
