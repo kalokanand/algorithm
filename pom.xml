@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.kalokanand</groupId>
 	<artifactId>algorithm</artifactId>
-	<version>1.1.2</version>
+	<version>1.1.4</version>
 	<name>${project.groupId}:${project.artifactId}</name>
 	<packaging>jar</packaging>
 	<description>Algorithm</description>
